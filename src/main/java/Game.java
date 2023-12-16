@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class Game {
 
-    Map<String, Player> players;
+    private Map<String, Player> players;
 
     public Game() {
         players = new HashMap<>();
